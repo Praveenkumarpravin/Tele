@@ -1,0 +1,130 @@
+/* Phone.css */
+
+*{
+    background-color: rgb(33,33,33);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    /* border: 1px solid black; */
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    /* border: 1px solid black; */
+    height: 140vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    /* border: 1px solid red; */
+    height: 45vh;
+}
+.img>i{
+    font-size: 160px;
+    max-height: 70px;
+    max-width: 70px;
+    background-color: rgb(33,33,33);
+    color: rgb(53,170,230);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-115%,-80%);
+}
+h2{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    /* border: 1px solid red; */
+    height: 20vh;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    bottom: 25px;
+    line-height: 0px;
+}
+.text>p{
+    color: rgb(160,160,160);
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+select,#input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+select{
+    position: relative;
+    left: 23px;
+    
+}
+#input{
+ position: relative;
+ left: 25px;
+ top: 20px;
+ width: 345px;
+}
+label{
+   color: rgb(160,160,160);
+    padding: 3.5px;
+    position: relative;
+    left: 30px;
+    bottom:113px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#label{
+    position: relative;
+    left: -322px;
+    bottom: 10px;
+}
+
+.form{
+    height: 140px;
+    /* border: 1px solid red; */
+   
+}
+.dummy{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.dummy>p{
+    font-size: 18px;  
+}
+#buttontag{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 280px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8774e1;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(39, 39, 39);
+}
+#input:hover,select:hover{
+    border:2px solid #8774e1;
+}
